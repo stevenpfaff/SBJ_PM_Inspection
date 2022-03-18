@@ -1,5 +1,6 @@
 import './App.css'
 import tasks from './Data/tasks.json'
+import tasksii from './Data/tasksii.json'
 import { Table } from 'react-bootstrap'
 
 function App() {
@@ -46,7 +47,28 @@ function App() {
             </tbody>
           ))}
         </Table>
-
+      </div>
+      <div style={{ marginTop: '3%', marginLeft: '20%', marginRight: '20%' }} >
+        <Table>
+          <thead>
+            <th>Task</th>
+            <th>OK</th>
+            <th>Adjusted</th>
+            <th>Replace</th>
+            <th>Monitor</th>
+            <th>Not Performed</th>
+          </thead>
+          {tasksii.map((tasks) => (
+            <tbody>
+              <td>{tasks.name}</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tbody>
+          ))}
+        </Table>
       </div>
     </div >
   );
