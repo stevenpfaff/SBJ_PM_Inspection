@@ -1,0 +1,23 @@
+[
+  {
+    "customer": "Jared Walters",
+    "unitNumber": "RP4ZJ0WPXX",
+    "vin": "1G4GJ11Y9HP422546",
+    "miles": 300,
+    "hours": 25.23
+  },
+  {
+    "customer": "Stewart Garnett",
+    "unitNumber": "EFUK4D1K4M",
+    "vin": "2GCEC19Z1S1244154",
+    "miles": 45,
+    "hours": 25.645
+  },
+  {
+    "customer": "Bruce Harvey",
+    "unitNumber": "YGM7GUJ7BJ",
+    "vin": "WMWZN3C51BT133317",
+    "miles": 125,
+    "hours": 25.345
+  }
+]

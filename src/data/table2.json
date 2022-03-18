@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Oil Change",
+    "completed": false,
+    "notPerformed": true,
+    "partNumber": "A320HGOEJ4"
+  },
+  {
+    "name": "Fuel Filters",
+    "completed": true,
+    "notPerformed": false,
+    "partNumber": "6OF8WBFY6K"
+  },
+  {
+    "name": "Grease",
+    "completed": false,
+    "notPerformed": true,
+    "partNumber": "M7R0S8PTRR"
+  },
+  {
+    "name": "Air Filter",
+    "completed": true,
+    "notPerformed": false,
+    "partNumber": "HRXILKADTP"
+  },
+  {
+    "name": "Trans Service / Filter",
+    "completed": false,
+    "notPerformed": true,
+    "partNumber": "GA9UPACDT9"
+  },
+  {
+    "name": "Axle Service",
+    "completed": false,
+    "notPerformed": true,
+    "partNumber": "NUAI6HW36C"
+  },
+  {
+    "name": "Hydraulic Service / Filter",
+    "completed": true,
+    "notPerformed": false,
+    "partNumber": "NO319JFOHF"
+  },
+  {
+    "name": "Drain Air Tanks",
+    "completed": false,
+    "notPerformed": true,
+    "partNumber": "W221SNJFVX"
+  },
+  {
+    "name": "Apply PM Sticker",
+    "completed": true,
+    "notPerformed": false,
+    "partNumber": "67V86C503B"
+  }
+]
