@@ -3,11 +3,12 @@ import tasks from './Data/tasks.json'
 import tasksii from './Data/tasksii.json'
 import tasksiii from './Data/tasksiii.json'
 import { Table } from 'react-bootstrap'
+import logo from './sbj.png'
 
 function App() {
   return (
     <div className="App">
-      <h1 style={{ textAlign: 'center', marginTop: '3%' }}>SBJ Services LLC PM Inspection Checklist</h1>
+      <h1 style={{ textAlign: 'center', marginTop: '3%' }}><img src={logo} height="100" width="100"></img>PM Inspection Checklist</h1>
       <h2 style={{ marginTop: '1%', marginLeft: '31%' }}>Work Order #</h2>
       <div style={{ marginTop: '1%', marginLeft: '20%', marginRight: '20%' }}>
         <Table striped bordered hover>
