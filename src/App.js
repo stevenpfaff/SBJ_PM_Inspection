@@ -42,8 +42,12 @@ function App() {
             <tbody>
               <tr>
                 <td>{task.name}</td>
-                <td></td>
-                <td></td>
+                <td><div>
+                  <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+                </div></td>
+                <td><div>
+                  <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+                </div></td>
                 <td></td>
               </tr>
             </tbody>
@@ -63,11 +67,21 @@ function App() {
           {tasksii.map((tasks) => (
             <tbody>
               <td>{tasks.name}</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+              </div></td>
+              <td><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+              </div></td>
+              <td><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+              </div></td>
+              <td><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+              </div></td>
+              <td><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+              </div></td>
             </tbody>
           ))}
         </Table>
@@ -82,7 +96,9 @@ function App() {
           {tasksiii.map((tasksiii) => (
             <tbody>
               <td>{tasksiii.name}</td>
-              <td></td>
+              <td><div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." />
+              </div></td>
               <td></td>
             </tbody>
           ))}
