@@ -1,6 +1,7 @@
 import './App.css'
 import tasks from './Data/tasks.json'
 import tasksii from './Data/tasksii.json'
+import tasksiii from './Data/tasksiii.json'
 import { Table } from 'react-bootstrap'
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
         </Table>
       </div>
       <div style={{ marginTop: '3%', marginLeft: '20%', marginRight: '20%' }} >
-        <Table>
+        <Table striped bordered hover>
           <thead>
             <th>Task</th>
             <th>OK</th>
@@ -64,6 +65,22 @@ function App() {
               <td></td>
               <td></td>
               <td></td>
+              <td></td>
+              <td></td>
+            </tbody>
+          ))}
+        </Table>
+      </div>
+      <div style={{ marginTop: '3%', marginLeft: '20%', marginRight: '20%' }} >
+        <Table striped bordered hover>
+          <thead>
+            <th>Task</th>
+            <th>OK</th>
+            <th>Location</th>
+          </thead>
+          {tasksiii.map((tasksiii) => (
+            <tbody>
+              <td>{tasksiii.name}</td>
               <td></td>
               <td></td>
             </tbody>
