@@ -6,7 +6,7 @@ const Title = ({ workOrderNumber = '' }) => (
       <img id='logo' src={logo} />
       PM Inspection Checklist
     </h1>
-    <h2>Work Order #{workOrderNumber}</h2>
+    {!!workOrderNumber && <h2>Work Order #{workOrderNumber}</h2>}
   </>
 )
 
