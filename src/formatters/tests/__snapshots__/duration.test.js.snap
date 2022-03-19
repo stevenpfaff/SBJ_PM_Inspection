@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`duration formatHours should throw an error if hours is not a number 1`] = `[Error: Invalid hours value: received 'NaN' - expected number]`;
+
+exports[`duration formatHours should throw an error if typeof hours is not a number 1`] = `[Error: Invalid hours value: received 'undefined' - expected number]`;
+
+exports[`duration formatMinutes should throw an error if hours is not a number 1`] = `[Error: Invalid hours value: received 'NaN' - expected number]`;
+
+exports[`duration formatMinutes should throw an error if typeof hours is not a number 1`] = `[Error: Invalid hours value: received 'undefined' - expected number]`;

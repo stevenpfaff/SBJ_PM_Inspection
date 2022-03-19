@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`distance should throw an error if display is not "short", "long", or "narrow" 1`] = `[Error: Invalid distance unit display: received 'test' - expected 'short', 'long', or 'narrow']`;
+
+exports[`distance should throw an error if typeof value is not number 1`] = `[Error: Invalid distance value: received 'undefined' - expected number]`;
+
+exports[`distance should throw an error if unit is not "mile" or "kilometer" 1`] = `[Error: Invalid distance unit: received 'test' - expected 'mile' or 'kilometer']`;
+
+exports[`distance should throw an error if value is not a number 1`] = `[Error: Invalid distance value: received 'NaN' - expected number]`;

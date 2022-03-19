@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should match snapshot when workOrderNumber is defined 1`] = `
+<div>
+  <h1>
+    <img
+      id="logo"
+      src="sbj.png"
+    />
+    PM Inspection Checklist
+  </h1>
+  <h2>
+    Work Order #
+    123456
+  </h2>
+</div>
+`;
+
+exports[`Title should match snapshot when workOrderNumber is empty 1`] = `
+<div>
+  <h1>
+    <img
+      id="logo"
+      src="sbj.png"
+    />
+    PM Inspection Checklist
+  </h1>
+</div>
+`;
