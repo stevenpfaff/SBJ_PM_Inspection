@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table1 should match snapshot 1`] = `
+<div>
+  <table
+    class="table table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+          Customer
+        </th>
+        <th>
+          Unit #
+        </th>
+        <th>
+          VIN
+        </th>
+        <th>
+          Distance
+        </th>
+        <th>
+          Duration
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Jared Walters
+        </td>
+        <td
+          class="fixed-width"
+        >
+          RP4ZJ0WPXX
+        </td>
+        <td
+          class="fixed-width"
+        >
+          1G4GJ11Y9HP422546
+        </td>
+        <td
+          class="distance"
+        >
+          300 mi
+        </td>
+        <td
+          class="duration"
+        >
+          <span>
+            25 hrs
+          </span>
+          <span>
+            13 mins
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Stewart Garnett
+        </td>
+        <td
+          class="fixed-width"
+        >
+          EFUK4D1K4M
+        </td>
+        <td
+          class="fixed-width"
+        >
+          2GCEC19Z1S1244154
+        </td>
+        <td
+          class="distance"
+        >
+          45 mi
+        </td>
+        <td
+          class="duration"
+        >
+          <span>
+            25 hrs
+          </span>
+          <span>
+            38 mins
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Bruce Harvey
+        </td>
+        <td
+          class="fixed-width"
+        >
+          YGM7GUJ7BJ
+        </td>
+        <td
+          class="fixed-width"
+        >
+          WMWZN3C51BT133317
+        </td>
+        <td
+          class="distance"
+        >
+          125 mi
+        </td>
+        <td
+          class="duration"
+        >
+          <span>
+            25 hrs
+          </span>
+          <span>
+            20 mins
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
