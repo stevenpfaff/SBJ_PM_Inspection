@@ -21,6 +21,7 @@ const Table2 = () => (
               type='checkbox'
               checked={task.completed}
               onChange={() => {}}
+              data-testid='table-2-completed'
             />
           </td>
           <td>
@@ -28,6 +29,7 @@ const Table2 = () => (
               type='checkbox'
               checked={task.notPerformed}
               onChange={() => {}}
+              data-testid='table-2-not-performed'
             />
           </td>
           <td className='fixed-width'>{task.partNumber}</td>
