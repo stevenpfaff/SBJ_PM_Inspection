@@ -12,6 +12,7 @@ const Table3 = () => (
         <th>Replace</th>
         <th>Monitor</th>
         <th>Not Performed</th>
+        <th>Notes</th>
       </tr>
     </thead>
     <tbody>
@@ -34,6 +35,9 @@ const Table3 = () => (
           </td>
           <td>
             <input type='checkbox' />
+          </td>
+          <td>
+
           </td>
         </tr>
       ))}
